@@ -5,10 +5,13 @@
   import NonPrimitiveReactiveData from "./components/NonPrimitiveReactiveData.vue";
   import DataBinding from "./components/DataBinding.vue";
   import WithProps from "./components/WithProps.vue";
+  import ListenEvent from "./components/ListenEvent.vue";
 </script>
 
 <template>
   <header>Vuejs</header>
+
+  <ListenEvent />
   <WithProps item="Eraser" :price="2.50"/>
   <DataBinding />
   <NonPrimitiveReactiveData />
