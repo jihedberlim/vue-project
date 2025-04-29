@@ -1,0 +1,54 @@
+body {
+  margin: 0px;
+  background-color: #3d3939;
+  color: #4c699e;
+}
+
+#app {
+  font-weight: normal;
+}
+
+header {
+  font-size: 2em;
+  color: white;
+  margin-bottom: 20px;
+  background-color: #4c699e;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+.component {
+  text-align: center;
+  border: 2px solid #42b883;
+  background-color: #2c2929;
+  border-radius: 15px;
+  margin: 30px;
+  padding: 10px;
+}
+
+.component p {
+  font-size: 1.5rem;
+}
+
+button {
+  background-color: #42b883;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 5px 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #3ed390;
+}
+
+input {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 24px;
+  margin: 0px 5px 10px 0px;
+}
