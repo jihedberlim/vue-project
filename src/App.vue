@@ -6,11 +6,13 @@
   import DataBinding from "./components/DataBinding.vue";
   import WithProps from "./components/WithProps.vue";
   import ListenEvent from "./components/ListenEvent.vue";
+  import ComputedProperties from "./components/ComputedProperties.vue";
 </script>
 
 <template>
   <header>Vuejs</header>
 
+  <ComputedProperties />
   <ListenEvent />
   <WithProps item="Eraser" :price="2.50"/>
   <DataBinding />
