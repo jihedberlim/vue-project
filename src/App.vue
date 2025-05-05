@@ -7,11 +7,13 @@
   import WithProps from "./components/WithProps.vue";
   import ListenEvent from "./components/ListenEvent.vue";
   import ComputedProperties from "./components/ComputedProperties.vue";
+  import AssistedProperties from "./components/AssistedProperties.vue";
 </script>
 
 <template>
   <header>Vuejs</header>
 
+  <AssistedProperties />
   <ComputedProperties />
   <ListenEvent />
   <WithProps item="Eraser" :price="2.50"/>
