@@ -8,11 +8,13 @@
   import ListenEvent from "./components/ListenEvent.vue";
   import ComputedProperties from "./components/ComputedProperties.vue";
   import AssistedProperties from "./components/AssistedProperties.vue";
+  import ConditionalRendering from "./components/ConditionalRendering.vue";
 </script>
 
 <template>
   <header>Vuejs</header>
 
+  <ConditionalRendering name-person="Jihed" :num-dogs="2"/>
   <AssistedProperties />
   <ComputedProperties />
   <ListenEvent />
